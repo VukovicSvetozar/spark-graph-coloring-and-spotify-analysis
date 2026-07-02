@@ -1,0 +1,18 @@
+
+[
+  {
+    "type": "REMOVE_EDGE",
+    "nodeIdA": 5,
+    "nodeIdB": 10
+  },
+  {
+    "type": "ADD_NODE",
+    "nodeIdA": 1001,
+    "neighbors": [5, 10, 15]
+  },
+  {
+    "type": "ADD_EDGE",
+    "nodeIdA": 20,
+    "nodeIdB": 25
+  }
+]

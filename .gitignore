@@ -1,0 +1,17 @@
+
+# --- Maven (Obavezno za pom.xml) ---
+**/target/
+
+# --- IntelliJ i VS Code ---
+.idea/
+*.iml
+.vscode/
+
+# --- Eclipse (za svaki slučaj) ---
+.project
+.classpath
+.settings/
+
+# --- Privremeni fajlovi i logovi ---
+*.log
+

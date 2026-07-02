@@ -1,0 +1,124 @@
+{
+  "analysis_name": "Duge Plesne Pjesme Analiza",
+  "description": "10 najdužih pjesama sa plesivošću \u003e0.8 i njihov komercijalni uspjeh",
+  "timestamp": "Sat Dec 20 19:46:18 CET 2025",
+  "danceability_threshold": 0.8,
+  "top_10_long_danceable_tracks": [
+    {
+      "track_name": "Reggae Dancehall Riddim: Nanny Goat",
+      "artists": "Buju Banton;Garnett Silk;Sanchez;Tony Rebel;Richie Stephens;Marcia Griffiths;Mad Cobra;General Degree;Nana Mclean;Jack Radics;Terry Ganzie;Thrilla U;Kultra Knox;Dean Fraser",
+      "genre": "dancehall",
+      "duration_minutes": 38.4801,
+      "danceability": 0.857,
+      "popularity": 27.0,
+      "genre_avg_popularity": 33.467,
+      "genre_avg_duration_minutes": 3.290916983333333,
+      "popularity_vs_genre": -6.466999999999999
+    },
+    {
+      "track_name": "Higher - Steve Silk Hurley Journey To Heaven",
+      "artists": "\"Steve \"\"Silk\"\" Hurley;Vernessa Mitchell;Ricky Dillard;New G.\"",
+      "genre": "chicago-house",
+      "duration_minutes": 13.81155,
+      "danceability": 0.909,
+      "popularity": 7.0,
+      "genre_avg_popularity": 12.34134134134134,
+      "genre_avg_duration_minutes": 6.112492792792793,
+      "popularity_vs_genre": -5.341341341341341
+    },
+    {
+      "track_name": "Higher - Steve Silk Hurley Journey To Heaven",
+      "artists": "\"Steve \"\"Silk\"\" Hurley;Vernessa Mitchell;Ricky Dillard;New G.\"",
+      "genre": "chicago-house",
+      "duration_minutes": 13.81155,
+      "danceability": 0.908,
+      "popularity": 15.0,
+      "genre_avg_popularity": 12.34134134134134,
+      "genre_avg_duration_minutes": 6.112492792792793,
+      "popularity_vs_genre": 2.658658658658659
+    },
+    {
+      "track_name": "Greenhouse Construction",
+      "artists": "Mark Farina",
+      "genre": "chicago-house",
+      "duration_minutes": 72.24535,
+      "danceability": 0.846,
+      "popularity": 12.0,
+      "genre_avg_popularity": 12.34134134134134,
+      "genre_avg_duration_minutes": 6.112492792792793,
+      "popularity_vs_genre": -0.34134134134134086
+    },
+    {
+      "track_name": "Live In Tokyo - Continuous Mix",
+      "artists": "Mark Farina",
+      "genre": "chicago-house",
+      "duration_minutes": 72.33043333333333,
+      "danceability": 0.806,
+      "popularity": 11.0,
+      "genre_avg_popularity": 12.34134134134134,
+      "genre_avg_duration_minutes": 6.112492792792793,
+      "popularity_vs_genre": -1.3413413413413409
+    },
+    {
+      "track_name": "House of Om - Mark Farina - Continuous Mix",
+      "artists": "Mark Farina",
+      "genre": "chicago-house",
+      "duration_minutes": 74.12533333333333,
+      "danceability": 0.861,
+      "popularity": 11.0,
+      "genre_avg_popularity": 12.34134134134134,
+      "genre_avg_duration_minutes": 6.112492792792793,
+      "popularity_vs_genre": -1.3413413413413409
+    },
+    {
+      "track_name": "When The Going Is Smooth \u0026 Good",
+      "artists": "William Onyeabor",
+      "genre": "afrobeat",
+      "duration_minutes": 12.896666666666667,
+      "danceability": 0.826,
+      "popularity": 17.0,
+      "genre_avg_popularity": 24.399,
+      "genre_avg_duration_minutes": 4.1402131833333335,
+      "popularity_vs_genre": -7.399000000000001
+    },
+    {
+      "track_name": "Falling Up - Theo Parrish 2013 Remaster",
+      "artists": "Theo Parrish;Carl Craig",
+      "genre": "detroit-techno",
+      "duration_minutes": 12.737333333333334,
+      "danceability": 0.862,
+      "popularity": 11.0,
+      "genre_avg_popularity": 11.174,
+      "genre_avg_duration_minutes": 6.2002067,
+      "popularity_vs_genre": -0.1739999999999995
+    },
+    {
+      "track_name": "Various Mixed KDJ Rarities",
+      "artists": "Moodymann",
+      "genre": "detroit-techno",
+      "duration_minutes": 17.0951,
+      "danceability": 0.817,
+      "popularity": 5.0,
+      "genre_avg_popularity": 11.174,
+      "genre_avg_duration_minutes": 6.2002067,
+      "popularity_vs_genre": -6.1739999999999995
+    },
+    {
+      "track_name": "Psika",
+      "artists": "Dusty Kid",
+      "genre": "minimal-techno",
+      "duration_minutes": 13.612433333333334,
+      "danceability": 0.811,
+      "popularity": 34.0,
+      "genre_avg_popularity": 34.022,
+      "genre_avg_duration_minutes": 6.147720766666667,
+      "popularity_vs_genre": -0.021999999999998465
+    }
+  ],
+  "overall_statistics": {
+    "long_danceable_avg_popularity": 15.0,
+    "all_danceable_avg_popularity": 31.307147673634525,
+    "length_impact": -16.307147673634525
+  },
+  "conclusion": "Duže plesne pjesme imaju NEGATIVAN uticaj na popularnost"
+}

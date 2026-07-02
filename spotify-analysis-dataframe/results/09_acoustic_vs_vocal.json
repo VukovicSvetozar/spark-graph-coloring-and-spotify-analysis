@@ -1,0 +1,1219 @@
+{
+  "analysis_name": "Akustične vs Vokalne Pjesme Analiza",
+  "description": "Upoređivanje žanrova sa visokim akustičnim/instrumentalnim vrijednostima i vokalnih žanrova",
+  "timestamp": "Sat Dec 20 19:46:21 CET 2025",
+  "acoustic_instrumental_genres": [
+    {
+      "genre": "indie-pop",
+      "avg_acousticness": 0.9594999849796295,
+      "avg_instrumentalness": 0.9175000190734863,
+      "avg_popularity": 76.5,
+      "track_count": 2
+    },
+    {
+      "genre": "indie",
+      "avg_acousticness": 0.9079999923706055,
+      "avg_instrumentalness": 0.906333347161611,
+      "avg_popularity": 76.0,
+      "track_count": 3
+    },
+    {
+      "genre": "emo",
+      "avg_acousticness": 0.9600000083446503,
+      "avg_instrumentalness": 0.8344999849796295,
+      "avg_popularity": 64.0,
+      "track_count": 2
+    },
+    {
+      "genre": "folk",
+      "avg_acousticness": 0.9239999949932098,
+      "avg_instrumentalness": 0.8708333373069763,
+      "avg_popularity": 60.333333333333336,
+      "track_count": 6
+    },
+    {
+      "genre": "blues",
+      "avg_acousticness": 0.9330000281333923,
+      "avg_instrumentalness": 0.8600000143051147,
+      "avg_popularity": 59.0,
+      "track_count": 1
+    },
+    {
+      "genre": "country",
+      "avg_acousticness": 0.8679999709129333,
+      "avg_instrumentalness": 0.8880000114440918,
+      "avg_popularity": 56.0,
+      "track_count": 1
+    },
+    {
+      "genre": "electronic",
+      "avg_acousticness": 0.9543333252271017,
+      "avg_instrumentalness": 0.895499994357427,
+      "avg_popularity": 51.666666666666664,
+      "track_count": 6
+    },
+    {
+      "genre": "turkish",
+      "avg_acousticness": 0.9794000029563904,
+      "avg_instrumentalness": 0.9204000115394593,
+      "avg_popularity": 51.4,
+      "track_count": 5
+    },
+    {
+      "genre": "j-rock",
+      "avg_acousticness": 0.9589999914169312,
+      "avg_instrumentalness": 0.8659999966621399,
+      "avg_popularity": 51.0,
+      "track_count": 1
+    },
+    {
+      "genre": "garage",
+      "avg_acousticness": 0.8880833288033804,
+      "avg_instrumentalness": 0.8912499894698461,
+      "avg_popularity": 49.5,
+      "track_count": 12
+    },
+    {
+      "genre": "chill",
+      "avg_acousticness": 0.9096760573521466,
+      "avg_instrumentalness": 0.8997183055944846,
+      "avg_popularity": 49.309859154929576,
+      "track_count": 71
+    },
+    {
+      "genre": "sad",
+      "avg_acousticness": 0.930315795697664,
+      "avg_instrumentalness": 0.8834473725996519,
+      "avg_popularity": 48.55263157894737,
+      "track_count": 38
+    },
+    {
+      "genre": "rockabilly",
+      "avg_acousticness": 0.8325000107288361,
+      "avg_instrumentalness": 0.859499990940094,
+      "avg_popularity": 48.0,
+      "track_count": 2
+    },
+    {
+      "genre": "indian",
+      "avg_acousticness": 0.8867500051856041,
+      "avg_instrumentalness": 0.8869999945163727,
+      "avg_popularity": 47.25,
+      "track_count": 8
+    },
+    {
+      "genre": "anime",
+      "avg_acousticness": 0.9206138595496074,
+      "avg_instrumentalness": 0.9007524771265464,
+      "avg_popularity": 46.801980198019805,
+      "track_count": 101
+    },
+    {
+      "genre": "piano",
+      "avg_acousticness": 0.9797044595821196,
+      "avg_instrumentalness": 0.9183234196834847,
+      "avg_popularity": 46.24721189591078,
+      "track_count": 538
+    },
+    {
+      "genre": "singer-songwriter",
+      "avg_acousticness": 0.926499992609024,
+      "avg_instrumentalness": 0.9009999930858612,
+      "avg_popularity": 45.5,
+      "track_count": 2
+    },
+    {
+      "genre": "songwriter",
+      "avg_acousticness": 0.926499992609024,
+      "avg_instrumentalness": 0.9009999930858612,
+      "avg_popularity": 45.5,
+      "track_count": 2
+    },
+    {
+      "genre": "synth-pop",
+      "avg_acousticness": 0.8955000042915344,
+      "avg_instrumentalness": 0.9090000092983246,
+      "avg_popularity": 45.0,
+      "track_count": 2
+    },
+    {
+      "genre": "goth",
+      "avg_acousticness": 0.9456666509310404,
+      "avg_instrumentalness": 0.875333309173584,
+      "avg_popularity": 44.666666666666664,
+      "track_count": 3
+    },
+    {
+      "genre": "ambient",
+      "avg_acousticness": 0.951487475851827,
+      "avg_instrumentalness": 0.9124508674663845,
+      "avg_popularity": 43.24084778420038,
+      "track_count": 519
+    },
+    {
+      "genre": "acoustic",
+      "avg_acousticness": 0.9231851851498639,
+      "avg_instrumentalness": 0.8981481547708865,
+      "avg_popularity": 42.333333333333336,
+      "track_count": 27
+    },
+    {
+      "genre": "sleep",
+      "avg_acousticness": 0.9461249992575335,
+      "avg_instrumentalness": 0.9166576094601465,
+      "avg_popularity": 41.13858695652174,
+      "track_count": 368
+    },
+    {
+      "genre": "psych-rock",
+      "avg_acousticness": 0.8887500166893005,
+      "avg_instrumentalness": 0.9169999957084656,
+      "avg_popularity": 39.75,
+      "track_count": 4
+    },
+    {
+      "genre": "soul",
+      "avg_acousticness": 0.8826666673024496,
+      "avg_instrumentalness": 0.893666664759318,
+      "avg_popularity": 39.333333333333336,
+      "track_count": 3
+    },
+    {
+      "genre": "j-dance",
+      "avg_acousticness": 0.9933333198229471,
+      "avg_instrumentalness": 0.8756666580835978,
+      "avg_popularity": 33.666666666666664,
+      "track_count": 3
+    },
+    {
+      "genre": "club",
+      "avg_acousticness": 0.9298333376646042,
+      "avg_instrumentalness": 0.8937499970197678,
+      "avg_popularity": 32.5,
+      "track_count": 12
+    },
+    {
+      "genre": "british",
+      "avg_acousticness": 0.930305082919234,
+      "avg_instrumentalness": 0.9035084752713219,
+      "avg_popularity": 32.49152542372882,
+      "track_count": 59
+    },
+    {
+      "genre": "guitar",
+      "avg_acousticness": 0.9341040604610733,
+      "avg_instrumentalness": 0.9072487313432742,
+      "avg_popularity": 31.809644670050762,
+      "track_count": 394
+    },
+    {
+      "genre": "minimal-techno",
+      "avg_acousticness": 0.824999988079071,
+      "avg_instrumentalness": 0.9040000140666962,
+      "avg_popularity": 31.5,
+      "track_count": 2
+    },
+    {
+      "genre": "study",
+      "avg_acousticness": 0.8949764148806626,
+      "avg_instrumentalness": 0.8997783011422967,
+      "avg_popularity": 29.55188679245283,
+      "track_count": 212
+    },
+    {
+      "genre": "children",
+      "avg_acousticness": 0.9554516134723541,
+      "avg_instrumentalness": 0.9232903161356526,
+      "avg_popularity": 29.483870967741936,
+      "track_count": 31
+    },
+    {
+      "genre": "new-age",
+      "avg_acousticness": 0.958981726454738,
+      "avg_instrumentalness": 0.9075199320070767,
+      "avg_popularity": 28.20265780730897,
+      "track_count": 602
+    },
+    {
+      "genre": "opera",
+      "avg_acousticness": 0.9430900007486344,
+      "avg_instrumentalness": 0.8970599979162216,
+      "avg_popularity": 27.47,
+      "track_count": 100
+    },
+    {
+      "genre": "french",
+      "avg_acousticness": 0.9521282040155851,
+      "avg_instrumentalness": 0.916230762616182,
+      "avg_popularity": 26.974358974358974,
+      "track_count": 39
+    },
+    {
+      "genre": "world-music",
+      "avg_acousticness": 0.957803029905666,
+      "avg_instrumentalness": 0.928121210047693,
+      "avg_popularity": 24.606060606060606,
+      "track_count": 66
+    },
+    {
+      "genre": "jazz",
+      "avg_acousticness": 0.9345555504163107,
+      "avg_instrumentalness": 0.9168148106998868,
+      "avg_popularity": 24.59259259259259,
+      "track_count": 27
+    },
+    {
+      "genre": "disney",
+      "avg_acousticness": 0.9586423598229885,
+      "avg_instrumentalness": 0.917885415462984,
+      "avg_popularity": 24.11111111111111,
+      "track_count": 288
+    },
+    {
+      "genre": "black-metal",
+      "avg_acousticness": 0.9077000021934509,
+      "avg_instrumentalness": 0.9180999994277954,
+      "avg_popularity": 24.0,
+      "track_count": 10
+    },
+    {
+      "genre": "techno",
+      "avg_acousticness": 0.8569999933242798,
+      "avg_instrumentalness": 0.9340000152587891,
+      "avg_popularity": 24.0,
+      "track_count": 1
+    },
+    {
+      "genre": "show-tunes",
+      "avg_acousticness": 0.9100625030696392,
+      "avg_instrumentalness": 0.8991875015199184,
+      "avg_popularity": 23.625,
+      "track_count": 16
+    },
+    {
+      "genre": "bluegrass",
+      "avg_acousticness": 0.9039310340223641,
+      "avg_instrumentalness": 0.8882758596847797,
+      "avg_popularity": 23.482758620689655,
+      "track_count": 29
+    },
+    {
+      "genre": "trip-hop",
+      "avg_acousticness": 0.9228000044822693,
+      "avg_instrumentalness": 0.9167999863624573,
+      "avg_popularity": 21.4,
+      "track_count": 5
+    },
+    {
+      "genre": "afrobeat",
+      "avg_acousticness": 0.8854166666666666,
+      "avg_instrumentalness": 0.8790833254655203,
+      "avg_popularity": 21.25,
+      "track_count": 12
+    },
+    {
+      "genre": "tango",
+      "avg_acousticness": 0.9376599955558776,
+      "avg_instrumentalness": 0.8902799999713897,
+      "avg_popularity": 17.88,
+      "track_count": 50
+    },
+    {
+      "genre": "industrial",
+      "avg_acousticness": 0.8610000014305115,
+      "avg_instrumentalness": 0.9209999839464823,
+      "avg_popularity": 17.0,
+      "track_count": 3
+    },
+    {
+      "genre": "honky-tonk",
+      "avg_acousticness": 0.9054285713604519,
+      "avg_instrumentalness": 0.8888571390083858,
+      "avg_popularity": 16.857142857142858,
+      "track_count": 14
+    },
+    {
+      "genre": "idm",
+      "avg_acousticness": 0.9181176459088045,
+      "avg_instrumentalness": 0.9106705896994647,
+      "avg_popularity": 16.376470588235293,
+      "track_count": 170
+    },
+    {
+      "genre": "german",
+      "avg_acousticness": 0.950013791692668,
+      "avg_instrumentalness": 0.9044551713713285,
+      "avg_popularity": 12.86896551724138,
+      "track_count": 145
+    },
+    {
+      "genre": "detroit-techno",
+      "avg_acousticness": 0.8500000238418579,
+      "avg_instrumentalness": 0.8500000238418579,
+      "avg_popularity": 12.0,
+      "track_count": 1
+    },
+    {
+      "genre": "classical",
+      "avg_acousticness": 0.9750167897610522,
+      "avg_instrumentalness": 0.9066641796658288,
+      "avg_popularity": 9.921641791044776,
+      "track_count": 536
+    },
+    {
+      "genre": "iranian",
+      "avg_acousticness": 0.9321919179926015,
+      "avg_instrumentalness": 0.911005049943924,
+      "avg_popularity": 3.8181818181818183,
+      "track_count": 198
+    },
+    {
+      "genre": "romance",
+      "avg_acousticness": 0.9517499953508377,
+      "avg_instrumentalness": 0.8072500079870224,
+      "avg_popularity": 0.5,
+      "track_count": 4
+    },
+    {
+      "genre": "brazil",
+      "avg_acousticness": 0.8524999916553497,
+      "avg_instrumentalness": 0.9235000014305115,
+      "avg_popularity": 0.0,
+      "track_count": 2
+    },
+    {
+      "genre": "latin",
+      "avg_acousticness": 0.8524999916553497,
+      "avg_instrumentalness": 0.9235000014305115,
+      "avg_popularity": 0.0,
+      "track_count": 2
+    },
+    {
+      "genre": "mpb",
+      "avg_acousticness": 0.8524999916553497,
+      "avg_instrumentalness": 0.9235000014305115,
+      "avg_popularity": 0.0,
+      "track_count": 2
+    },
+    {
+      "genre": "swedish",
+      "avg_acousticness": 0.9919999837875366,
+      "avg_instrumentalness": 0.9539999961853027,
+      "avg_popularity": 0.0,
+      "track_count": 2
+    },
+    {
+      "genre": "samba",
+      "avg_acousticness": 0.9390000104904175,
+      "avg_instrumentalness": 0.9269999861717224,
+      "avg_popularity": 0.0,
+      "track_count": 1
+    }
+  ],
+  "acoustic_instrumental_count": 58,
+  "acoustic_instrumental_avg_popularity": 32.585603236318484,
+  "vocal_heavy_genres": [
+    {
+      "genre": "k-pop",
+      "avg_acousticness": 0.091992256744367,
+      "avg_instrumentalness": 0.0023113710785952436,
+      "avg_popularity": 59.73166666666667,
+      "track_count": 600
+    },
+    {
+      "genre": "pop-film",
+      "avg_acousticness": 0.15116433164724316,
+      "avg_instrumentalness": 0.001965316488152179,
+      "avg_popularity": 59.722857142857144,
+      "track_count": 350
+    },
+    {
+      "genre": "chill",
+      "avg_acousticness": 0.1410209914015196,
+      "avg_instrumentalness": 0.007664687619825531,
+      "avg_popularity": 52.33466135458168,
+      "track_count": 251
+    },
+    {
+      "genre": "sad",
+      "avg_acousticness": 0.12852683328502013,
+      "avg_instrumentalness": 0.007763489335240567,
+      "avg_popularity": 51.414084507042254,
+      "track_count": 355
+    },
+    {
+      "genre": "anime",
+      "avg_acousticness": 0.05910731069356835,
+      "avg_instrumentalness": 0.007344941032370026,
+      "avg_popularity": 50.44043321299639,
+      "track_count": 554
+    },
+    {
+      "genre": "ambient",
+      "avg_acousticness": 0.06435882434153375,
+      "avg_instrumentalness": 0.010967343863216709,
+      "avg_popularity": 49.716981132075475,
+      "track_count": 53
+    },
+    {
+      "genre": "grunge",
+      "avg_acousticness": 0.0247152476136502,
+      "avg_instrumentalness": 0.008989243648556387,
+      "avg_popularity": 49.674107142857146,
+      "track_count": 896
+    },
+    {
+      "genre": "british",
+      "avg_acousticness": 0.09268363768046453,
+      "avg_instrumentalness": 0.01417971444334918,
+      "avg_popularity": 47.71142857142857,
+      "track_count": 350
+    },
+    {
+      "genre": "sertanejo",
+      "avg_acousticness": 0.17406414202067844,
+      "avg_instrumentalness": 1.0651650359765284E-5,
+      "avg_popularity": 47.63106796116505,
+      "track_count": 309
+    },
+    {
+      "genre": "indian",
+      "avg_acousticness": 0.13005688998682055,
+      "avg_instrumentalness": 0.011010337505070775,
+      "avg_popularity": 47.6084142394822,
+      "track_count": 309
+    },
+    {
+      "genre": "emo",
+      "avg_acousticness": 0.06642723680044582,
+      "avg_instrumentalness": 0.004726427233237449,
+      "avg_popularity": 47.12,
+      "track_count": 725
+    },
+    {
+      "genre": "progressive-house",
+      "avg_acousticness": 0.056056608122136524,
+      "avg_instrumentalness": 0.021440827130537025,
+      "avg_popularity": 47.093484419263454,
+      "track_count": 706
+    },
+    {
+      "genre": "j-pop",
+      "avg_acousticness": 0.0754993564247321,
+      "avg_instrumentalness": 0.006813752511530947,
+      "avg_popularity": 46.6464,
+      "track_count": 625
+    },
+    {
+      "genre": "piano",
+      "avg_acousticness": 0.0959553669452249,
+      "avg_instrumentalness": 0.005864639006010225,
+      "avg_popularity": 45.83185840707964,
+      "track_count": 226
+    },
+    {
+      "genre": "deep-house",
+      "avg_acousticness": 0.07322581536501191,
+      "avg_instrumentalness": 0.033698708068544914,
+      "avg_popularity": 45.68557536466775,
+      "track_count": 617
+    },
+    {
+      "genre": "world-music",
+      "avg_acousticness": 0.06714033539281537,
+      "avg_instrumentalness": 0.0012954947466859697,
+      "avg_popularity": 45.19138755980861,
+      "track_count": 627
+    },
+    {
+      "genre": "mandopop",
+      "avg_acousticness": 0.13669084063163794,
+      "avg_instrumentalness": 0.005031077434801569,
+      "avg_popularity": 44.78164556962025,
+      "track_count": 316
+    },
+    {
+      "genre": "brazil",
+      "avg_acousticness": 0.11457422342239512,
+      "avg_instrumentalness": 0.00568135933533113,
+      "avg_popularity": 44.696673189823876,
+      "track_count": 511
+    },
+    {
+      "genre": "electronic",
+      "avg_acousticness": 0.07328050562210356,
+      "avg_instrumentalness": 0.028435625312413195,
+      "avg_popularity": 44.25925925925926,
+      "track_count": 540
+    },
+    {
+      "genre": "pop",
+      "avg_acousticness": 0.105923085841946,
+      "avg_instrumentalness": 0.0019694369293056335,
+      "avg_popularity": 44.228962818003914,
+      "track_count": 511
+    },
+    {
+      "genre": "metal",
+      "avg_acousticness": 0.02177318145014415,
+      "avg_instrumentalness": 0.018689272068638255,
+      "avg_popularity": 44.05298759864713,
+      "track_count": 887
+    },
+    {
+      "genre": "metalcore",
+      "avg_acousticness": 0.007137545602398,
+      "avg_instrumentalness": 0.01187258477307563,
+      "avg_popularity": 43.363247863247864,
+      "track_count": 936
+    },
+    {
+      "genre": "dubstep",
+      "avg_acousticness": 0.06912551201912838,
+      "avg_instrumentalness": 0.01422941491110618,
+      "avg_popularity": 42.77172503242542,
+      "track_count": 771
+    },
+    {
+      "genre": "hard-rock",
+      "avg_acousticness": 0.0502602623301978,
+      "avg_instrumentalness": 0.018329393010170184,
+      "avg_popularity": 42.030660377358494,
+      "track_count": 848
+    },
+    {
+      "genre": "gospel",
+      "avg_acousticness": 0.1161228095677487,
+      "avg_instrumentalness": 0.001148517235280284,
+      "avg_popularity": 41.69506726457399,
+      "track_count": 446
+    },
+    {
+      "genre": "forro",
+      "avg_acousticness": 0.16101044160176944,
+      "avg_instrumentalness": 4.660355532758545E-4,
+      "avg_popularity": 41.62352941176471,
+      "track_count": 340
+    },
+    {
+      "genre": "j-rock",
+      "avg_acousticness": 0.05210830225575099,
+      "avg_instrumentalness": 0.005701314246414106,
+      "avg_popularity": 41.23046875,
+      "track_count": 768
+    },
+    {
+      "genre": "mpb",
+      "avg_acousticness": 0.12146637994260287,
+      "avg_instrumentalness": 0.010021211212385415,
+      "avg_popularity": 41.22222222222222,
+      "track_count": 387
+    },
+    {
+      "genre": "show-tunes",
+      "avg_acousticness": 0.14045745589379188,
+      "avg_instrumentalness": 0.003587751038239998,
+      "avg_popularity": 41.02205882352941,
+      "track_count": 136
+    },
+    {
+      "genre": "dub",
+      "avg_acousticness": 0.07247948303737292,
+      "avg_instrumentalness": 0.01254501032459294,
+      "avg_popularity": 40.7535853976532,
+      "track_count": 767
+    },
+    {
+      "genre": "turkish",
+      "avg_acousticness": 0.11335616526033382,
+      "avg_instrumentalness": 0.008882903295294944,
+      "avg_popularity": 40.4671669793621,
+      "track_count": 533
+    },
+    {
+      "genre": "blues",
+      "avg_acousticness": 0.09771471085211732,
+      "avg_instrumentalness": 0.011710373607367808,
+      "avg_popularity": 40.00902934537246,
+      "track_count": 443
+    },
+    {
+      "genre": "r-n-b",
+      "avg_acousticness": 0.10502057507457946,
+      "avg_instrumentalness": 0.012783114712066192,
+      "avg_popularity": 39.720264317180614,
+      "track_count": 454
+    },
+    {
+      "genre": "garage",
+      "avg_acousticness": 0.04550311982866931,
+      "avg_instrumentalness": 0.023591704365578246,
+      "avg_popularity": 39.685064935064936,
+      "track_count": 616
+    },
+    {
+      "genre": "acoustic",
+      "avg_acousticness": 0.10792407859118291,
+      "avg_instrumentalness": 0.005280443157200782,
+      "avg_popularity": 39.67032967032967,
+      "track_count": 273
+    },
+    {
+      "genre": "swedish",
+      "avg_acousticness": 0.0932210956059767,
+      "avg_instrumentalness": 0.00514377162785699,
+      "avg_popularity": 39.657391304347826,
+      "track_count": 575
+    },
+    {
+      "genre": "french",
+      "avg_acousticness": 0.12636461067719532,
+      "avg_instrumentalness": 0.014722516530905554,
+      "avg_popularity": 39.60648148148148,
+      "track_count": 432
+    },
+    {
+      "genre": "spanish",
+      "avg_acousticness": 0.09319450892273405,
+      "avg_instrumentalness": 0.003971128455651354,
+      "avg_popularity": 39.2641196013289,
+      "track_count": 602
+    },
+    {
+      "genre": "trance",
+      "avg_acousticness": 0.03887923081063358,
+      "avg_instrumentalness": 0.0425121979172046,
+      "avg_popularity": 39.194063926940636,
+      "track_count": 438
+    },
+    {
+      "genre": "indie-pop",
+      "avg_acousticness": 0.09510987243292818,
+      "avg_instrumentalness": 0.009377188321304292,
+      "avg_popularity": 39.062098501070665,
+      "track_count": 467
+    },
+    {
+      "genre": "psych-rock",
+      "avg_acousticness": 0.10370803705710621,
+      "avg_instrumentalness": 0.017497304860419782,
+      "avg_popularity": 38.870182555780936,
+      "track_count": 493
+    },
+    {
+      "genre": "punk",
+      "avg_acousticness": 0.03700932388351176,
+      "avg_instrumentalness": 0.007599888467194479,
+      "avg_popularity": 38.76498237367802,
+      "track_count": 851
+    },
+    {
+      "genre": "punk-rock",
+      "avg_acousticness": 0.0387421431872794,
+      "avg_instrumentalness": 0.0072908280666650425,
+      "avg_popularity": 38.74133949191686,
+      "track_count": 866
+    },
+    {
+      "genre": "groove",
+      "avg_acousticness": 0.056527720718485754,
+      "avg_instrumentalness": 0.03280188561648323,
+      "avg_popularity": 38.69512195121951,
+      "track_count": 656
+    },
+    {
+      "genre": "techno",
+      "avg_acousticness": 0.06100855347769794,
+      "avg_instrumentalness": 0.04523038418701098,
+      "avg_popularity": 38.17894736842105,
+      "track_count": 285
+    },
+    {
+      "genre": "samba",
+      "avg_acousticness": 0.17010071130217286,
+      "avg_instrumentalness": 0.0012988822832399683,
+      "avg_popularity": 37.76679841897233,
+      "track_count": 253
+    },
+    {
+      "genre": "pagode",
+      "avg_acousticness": 0.17154191820786577,
+      "avg_instrumentalness": 3.619675302256339E-4,
+      "avg_popularity": 36.897260273972606,
+      "track_count": 146
+    },
+    {
+      "genre": "classical",
+      "avg_acousticness": 0.14098603853451025,
+      "avg_instrumentalness": 0.03588143786510045,
+      "avg_popularity": 36.84615384615385,
+      "track_count": 13
+    },
+    {
+      "genre": "synth-pop",
+      "avg_acousticness": 0.07621980244719001,
+      "avg_instrumentalness": 0.02426597687032322,
+      "avg_popularity": 36.6484268125855,
+      "track_count": 731
+    },
+    {
+      "genre": "new-age",
+      "avg_acousticness": 0.12118577813143255,
+      "avg_instrumentalness": 0.059164906888687106,
+      "avg_popularity": 36.592592592592595,
+      "track_count": 54
+    },
+    {
+      "genre": "rock-n-roll",
+      "avg_acousticness": 0.12757982482506577,
+      "avg_instrumentalness": 0.007680858122569702,
+      "avg_popularity": 36.5,
+      "track_count": 200
+    },
+    {
+      "genre": "comedy",
+      "avg_acousticness": 0.10886807293336903,
+      "avg_instrumentalness": 0.0040380702202303,
+      "avg_popularity": 36.09756097560975,
+      "track_count": 82
+    },
+    {
+      "genre": "hardcore",
+      "avg_acousticness": 0.041636113041869253,
+      "avg_instrumentalness": 0.01165022710246902,
+      "avg_popularity": 35.80679156908665,
+      "track_count": 854
+    },
+    {
+      "genre": "indie",
+      "avg_acousticness": 0.0988488003868432,
+      "avg_instrumentalness": 0.0092177974191225,
+      "avg_popularity": 35.745054945054946,
+      "track_count": 455
+    },
+    {
+      "genre": "ska",
+      "avg_acousticness": 0.06436751271319327,
+      "avg_instrumentalness": 0.009324033209583856,
+      "avg_popularity": 35.50301568154403,
+      "track_count": 829
+    },
+    {
+      "genre": "sleep",
+      "avg_acousticness": 0.055439934297773046,
+      "avg_instrumentalness": 0.056871611988571366,
+      "avg_popularity": 35.47540983606557,
+      "track_count": 61
+    },
+    {
+      "genre": "alt-rock",
+      "avg_acousticness": 0.05085701953018709,
+      "avg_instrumentalness": 0.013057927528118657,
+      "avg_popularity": 34.8746835443038,
+      "track_count": 790
+    },
+    {
+      "genre": "minimal-techno",
+      "avg_acousticness": 0.04534612177644464,
+      "avg_instrumentalness": 0.10935945135445907,
+      "avg_popularity": 34.26315789473684,
+      "track_count": 95
+    },
+    {
+      "genre": "disco",
+      "avg_acousticness": 0.08921617465092714,
+      "avg_instrumentalness": 0.01405065488221143,
+      "avg_popularity": 33.90769230769231,
+      "track_count": 715
+    },
+    {
+      "genre": "electro",
+      "avg_acousticness": 0.09849828278596685,
+      "avg_instrumentalness": 0.006901854424309981,
+      "avg_popularity": 33.677187948350074,
+      "track_count": 697
+    },
+    {
+      "genre": "opera",
+      "avg_acousticness": 0.062131972044696435,
+      "avg_instrumentalness": 0.007569464143765127,
+      "avg_popularity": 33.65217391304348,
+      "track_count": 69
+    },
+    {
+      "genre": "club",
+      "avg_acousticness": 0.06309936864345567,
+      "avg_instrumentalness": 0.03294472159484567,
+      "avg_popularity": 33.52153110047847,
+      "track_count": 418
+    },
+    {
+      "genre": "folk",
+      "avg_acousticness": 0.12337278658161634,
+      "avg_instrumentalness": 0.007673469653562343,
+      "avg_popularity": 33.421052631578945,
+      "track_count": 342
+    },
+    {
+      "genre": "edm",
+      "avg_acousticness": 0.08361906974735488,
+      "avg_instrumentalness": 0.00947241125871456,
+      "avg_popularity": 33.08710801393728,
+      "track_count": 861
+    },
+    {
+      "genre": "house",
+      "avg_acousticness": 0.08120169387377346,
+      "avg_instrumentalness": 0.007472791337860288,
+      "avg_popularity": 32.8394495412844,
+      "track_count": 872
+    },
+    {
+      "genre": "children",
+      "avg_acousticness": 0.11836702100423258,
+      "avg_instrumentalness": 0.004080268126863182,
+      "avg_popularity": 32.62706270627063,
+      "track_count": 303
+    },
+    {
+      "genre": "death-metal",
+      "avg_acousticness": 0.004381615337197003,
+      "avg_instrumentalness": 0.04419405280389862,
+      "avg_popularity": 32.516535433070864,
+      "track_count": 635
+    },
+    {
+      "genre": "dancehall",
+      "avg_acousticness": 0.11396404304941522,
+      "avg_instrumentalness": 0.0025344450896202307,
+      "avg_popularity": 32.4792243767313,
+      "track_count": 722
+    },
+    {
+      "genre": "hip-hop",
+      "avg_acousticness": 0.09935607287349352,
+      "avg_instrumentalness": 0.005180929373068768,
+      "avg_popularity": 32.472775564409034,
+      "track_count": 753
+    },
+    {
+      "genre": "disney",
+      "avg_acousticness": 0.14561017475677676,
+      "avg_instrumentalness": 0.008738161750733027,
+      "avg_popularity": 32.44047619047619,
+      "track_count": 84
+    },
+    {
+      "genre": "industrial",
+      "avg_acousticness": 0.019815449077149834,
+      "avg_instrumentalness": 0.035016116875095885,
+      "avg_popularity": 32.21095890410959,
+      "track_count": 730
+    },
+    {
+      "genre": "singer-songwriter",
+      "avg_acousticness": 0.12021826148275212,
+      "avg_instrumentalness": 0.009456805738100428,
+      "avg_popularity": 32.00396825396825,
+      "track_count": 252
+    },
+    {
+      "genre": "songwriter",
+      "avg_acousticness": 0.12021826148275212,
+      "avg_instrumentalness": 0.009456805738100428,
+      "avg_popularity": 32.00396825396825,
+      "track_count": 252
+    },
+    {
+      "genre": "funk",
+      "avg_acousticness": 0.11396844035644485,
+      "avg_instrumentalness": 0.003857083209294314,
+      "avg_popularity": 31.88354898336414,
+      "track_count": 541
+    },
+    {
+      "genre": "cantopop",
+      "avg_acousticness": 0.1444158282417602,
+      "avg_instrumentalness": 0.00669304594113036,
+      "avg_popularity": 31.882075471698112,
+      "track_count": 212
+    },
+    {
+      "genre": "trip-hop",
+      "avg_acousticness": 0.09418118872513782,
+      "avg_instrumentalness": 0.050445522340639246,
+      "avg_popularity": 30.763736263736263,
+      "track_count": 364
+    },
+    {
+      "genre": "rockabilly",
+      "avg_acousticness": 0.08991781504539693,
+      "avg_instrumentalness": 0.007577422007224304,
+      "avg_popularity": 30.188524590163933,
+      "track_count": 366
+    },
+    {
+      "genre": "drum-and-bass",
+      "avg_acousticness": 0.034218502923091795,
+      "avg_instrumentalness": 0.04504020482241668,
+      "avg_popularity": 30.180392156862744,
+      "track_count": 510
+    },
+    {
+      "genre": "goth",
+      "avg_acousticness": 0.04414109001561322,
+      "avg_instrumentalness": 0.02500919119465962,
+      "avg_popularity": 29.562305295950157,
+      "track_count": 642
+    },
+    {
+      "genre": "malay",
+      "avg_acousticness": 0.13332847267426073,
+      "avg_instrumentalness": 0.006524182636982456,
+      "avg_popularity": 29.33016627078385,
+      "track_count": 421
+    },
+    {
+      "genre": "guitar",
+      "avg_acousticness": 0.1689809665399333,
+      "avg_instrumentalness": 0.013622951791258827,
+      "avg_popularity": 28.903225806451612,
+      "track_count": 31
+    },
+    {
+      "genre": "salsa",
+      "avg_acousticness": 0.177906696841659,
+      "avg_instrumentalness": 0.004329468862033745,
+      "avg_popularity": 28.486238532110093,
+      "track_count": 218
+    },
+    {
+      "genre": "german",
+      "avg_acousticness": 0.08054434187524986,
+      "avg_instrumentalness": 0.0069376676526958034,
+      "avg_popularity": 28.078774617067833,
+      "track_count": 457
+    },
+    {
+      "genre": "hardstyle",
+      "avg_acousticness": 0.045145892891822664,
+      "avg_instrumentalness": 0.024586347686925518,
+      "avg_popularity": 27.717752234993615,
+      "track_count": 783
+    },
+    {
+      "genre": "power-pop",
+      "avg_acousticness": 0.036860645105159136,
+      "avg_instrumentalness": 0.015368278848399397,
+      "avg_popularity": 26.904242424242423,
+      "track_count": 825
+    },
+    {
+      "genre": "j-dance",
+      "avg_acousticness": 0.11510291583611035,
+      "avg_instrumentalness": 0.0028084730783165617,
+      "avg_popularity": 26.8734756097561,
+      "track_count": 656
+    },
+    {
+      "genre": "heavy-metal",
+      "avg_acousticness": 0.010955747152874899,
+      "avg_instrumentalness": 0.018267566182306356,
+      "avg_popularity": 26.362204724409448,
+      "track_count": 889
+    },
+    {
+      "genre": "alternative",
+      "avg_acousticness": 0.06196006738872838,
+      "avg_instrumentalness": 0.011951176621061045,
+      "avg_popularity": 25.726114649681527,
+      "track_count": 785
+    },
+    {
+      "genre": "bluegrass",
+      "avg_acousticness": 0.16206564129272347,
+      "avg_instrumentalness": 0.01772917882042858,
+      "avg_popularity": 25.69942196531792,
+      "track_count": 173
+    },
+    {
+      "genre": "afrobeat",
+      "avg_acousticness": 0.10270612986449337,
+      "avg_instrumentalness": 0.02683551120823352,
+      "avg_popularity": 24.88480392156863,
+      "track_count": 408
+    },
+    {
+      "genre": "j-idol",
+      "avg_acousticness": 0.0701227792879817,
+      "avg_instrumentalness": 0.010366422744840946,
+      "avg_popularity": 24.802325581395348,
+      "track_count": 774
+    },
+    {
+      "genre": "latino",
+      "avg_acousticness": 0.11122326538459222,
+      "avg_instrumentalness": 0.005271111216537159,
+      "avg_popularity": 23.540216086434572,
+      "track_count": 833
+    },
+    {
+      "genre": "happy",
+      "avg_acousticness": 0.04614864930659359,
+      "avg_instrumentalness": 0.04516760249047954,
+      "avg_popularity": 23.11201298701299,
+      "track_count": 616
+    },
+    {
+      "genre": "reggaeton",
+      "avg_acousticness": 0.11356487699628935,
+      "avg_instrumentalness": 0.0025859027882525697,
+      "avg_popularity": 22.681551116333726,
+      "track_count": 851
+    },
+    {
+      "genre": "study",
+      "avg_acousticness": 0.10049357707836092,
+      "avg_instrumentalness": 0.16854402802353155,
+      "avg_popularity": 22.423076923076923,
+      "track_count": 26
+    },
+    {
+      "genre": "black-metal",
+      "avg_acousticness": 0.006117195411672754,
+      "avg_instrumentalness": 0.06657601616660055,
+      "avg_popularity": 22.233560090702948,
+      "track_count": 441
+    },
+    {
+      "genre": "dance",
+      "avg_acousticness": 0.07819507295149954,
+      "avg_instrumentalness": 0.002906385958089639,
+      "avg_popularity": 21.221835075493612,
+      "track_count": 861
+    },
+    {
+      "genre": "soul",
+      "avg_acousticness": 0.1411482333030624,
+      "avg_instrumentalness": 0.005227161744382325,
+      "avg_popularity": 21.10810810810811,
+      "track_count": 444
+    },
+    {
+      "genre": "jazz",
+      "avg_acousticness": 0.16003150217912684,
+      "avg_instrumentalness": 0.036076117783170214,
+      "avg_popularity": 21.064102564102566,
+      "track_count": 78
+    },
+    {
+      "genre": "party",
+      "avg_acousticness": 0.06997258444391223,
+      "avg_instrumentalness": 0.0010059925211780565,
+      "avg_popularity": 20.87991498405951,
+      "track_count": 941
+    },
+    {
+      "genre": "rock",
+      "avg_acousticness": 0.06957158619425251,
+      "avg_instrumentalness": 0.01258555221751758,
+      "avg_popularity": 20.602011494252874,
+      "track_count": 696
+    },
+    {
+      "genre": "breakbeat",
+      "avg_acousticness": 0.03141779709975762,
+      "avg_instrumentalness": 0.05269071750753048,
+      "avg_popularity": 20.004273504273506,
+      "track_count": 468
+    },
+    {
+      "genre": "tango",
+      "avg_acousticness": 0.1744918726180913,
+      "avg_instrumentalness": 0.015210000274237245,
+      "avg_popularity": 19.875,
+      "track_count": 8
+    },
+    {
+      "genre": "reggae",
+      "avg_acousticness": 0.11620343619661115,
+      "avg_instrumentalness": 0.0021267259479248904,
+      "avg_popularity": 18.805555555555557,
+      "track_count": 828
+    },
+    {
+      "genre": "idm",
+      "avg_acousticness": 0.06469880788819482,
+      "avg_instrumentalness": 0.06493168308153591,
+      "avg_popularity": 18.210526315789473,
+      "track_count": 114
+    },
+    {
+      "genre": "country",
+      "avg_acousticness": 0.10400041265437995,
+      "avg_instrumentalness": 0.0033278443595720006,
+      "avg_popularity": 16.937062937062937,
+      "track_count": 572
+    },
+    {
+      "genre": "honky-tonk",
+      "avg_acousticness": 0.13889778855351825,
+      "avg_instrumentalness": 0.0037126230907170822,
+      "avg_popularity": 15.275862068965518,
+      "track_count": 58
+    },
+    {
+      "genre": "grindcore",
+      "avg_acousticness": 0.0073974920222644736,
+      "avg_instrumentalness": 0.07185062430897829,
+      "avg_popularity": 14.654654654654655,
+      "track_count": 333
+    },
+    {
+      "genre": "kids",
+      "avg_acousticness": 0.08654678809905894,
+      "avg_instrumentalness": 0.006319067036699862,
+      "avg_popularity": 14.074850299401197,
+      "track_count": 668
+    },
+    {
+      "genre": "chicago-house",
+      "avg_acousticness": 0.031307916544192314,
+      "avg_instrumentalness": 0.06030671710951117,
+      "avg_popularity": 13.455242966751918,
+      "track_count": 391
+    },
+    {
+      "genre": "detroit-techno",
+      "avg_acousticness": 0.04233029369081837,
+      "avg_instrumentalness": 0.05888134033254438,
+      "avg_popularity": 12.177215189873417,
+      "track_count": 158
+    },
+    {
+      "genre": "latin",
+      "avg_acousticness": 0.11111758914129792,
+      "avg_instrumentalness": 0.0036993699766653273,
+      "avg_popularity": 8.614723926380368,
+      "track_count": 815
+    },
+    {
+      "genre": "romance",
+      "avg_acousticness": 0.1877606056743499,
+      "avg_instrumentalness": 0.007793760515348616,
+      "avg_popularity": 3.5757575757575757,
+      "track_count": 33
+    },
+    {
+      "genre": "iranian",
+      "avg_acousticness": 0.03354610676225971,
+      "avg_instrumentalness": 0.032924857699983316,
+      "avg_popularity": 1.116504854368932,
+      "track_count": 206
+    }
+  ],
+  "vocal_heavy_count": 114,
+  "vocal_heavy_avg_popularity": 33.742316710277294,
+  "popularity_difference": -1.1567134739588099,
+  "conclusion": "Instrumentalni fokus ima NEUTRALAN uticaj na komercijalni uspjeh"
+}

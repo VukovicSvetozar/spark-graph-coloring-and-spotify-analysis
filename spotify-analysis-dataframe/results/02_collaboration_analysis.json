@@ -1,0 +1,90 @@
+{
+  "analysis_name": "Top 10 Kolaboracija Između Umjetnika",
+  "description": "Identifikacija najčešćih kolaboracija i analiza njihove popularnosti",
+  "timestamp": "Sat Dec 20 19:46:11 CET 2025",
+  "total_collaborations": 29958,
+  "top_10_collaborations": [
+    {
+      "artists": "Hank Williams;Drifting Cowboys",
+      "collaboration_count": 105,
+      "avg_popularity": 21.885714285714286,
+      "less_popular_artist": "Hank Williams",
+      "solo_popularity": 13.385714285714286,
+      "popularity_boost": 8.5
+    },
+    {
+      "artists": "Daddy Yankee;Bad Bunny",
+      "collaboration_count": 75,
+      "avg_popularity": 6.28,
+      "less_popular_artist": "Daddy Yankee",
+      "solo_popularity": 15.214285714285714,
+      "popularity_boost": -8.934285714285714
+    },
+    {
+      "artists": "Wolfgang Amadeus Mozart;Danielle Laval",
+      "collaboration_count": 70,
+      "avg_popularity": 10.114285714285714,
+      "less_popular_artist": "Wolfgang Amadeus Mozart",
+      "solo_popularity": 35.0,
+      "popularity_boost": -24.885714285714286
+    },
+    {
+      "artists": "Jhayco;Bad Bunny",
+      "collaboration_count": 64,
+      "avg_popularity": 2.890625,
+      "less_popular_artist": "Jhayco",
+      "solo_popularity": 0.43548387096774194,
+      "popularity_boost": 2.455141129032258
+    },
+    {
+      "artists": "Bruno Mars;Anderson .Paak;Silk Sonic",
+      "collaboration_count": 59,
+      "avg_popularity": 2.76271186440678,
+      "less_popular_artist": "Bruno Mars",
+      "solo_popularity": 35.666666666666664,
+      "popularity_boost": -32.90395480225988
+    },
+    {
+      "artists": "Tiësto;Charli XCX",
+      "collaboration_count": 55,
+      "avg_popularity": 6.2,
+      "less_popular_artist": "Charli XCX",
+      "solo_popularity": 0.5555555555555556,
+      "popularity_boost": 5.644444444444445
+    },
+    {
+      "artists": "J Balvin;Bad Bunny",
+      "collaboration_count": 55,
+      "avg_popularity": 10.381818181818181,
+      "less_popular_artist": "J Balvin",
+      "solo_popularity": 7.375,
+      "popularity_boost": 3.006818181818181
+    },
+    {
+      "artists": "Blake Rules;Netherfriends",
+      "collaboration_count": 54,
+      "avg_popularity": 11.055555555555555,
+      "less_popular_artist": "Blake Rules",
+      "solo_popularity": 9.5,
+      "popularity_boost": 1.5555555555555554
+    },
+    {
+      "artists": "Jhayco;Anuel AA",
+      "collaboration_count": 54,
+      "avg_popularity": 3.3333333333333335,
+      "less_popular_artist": "Jhayco",
+      "solo_popularity": 0.43548387096774194,
+      "popularity_boost": 2.8978494623655915
+    },
+    {
+      "artists": "Robin Schulz;David Guetta",
+      "collaboration_count": 52,
+      "avg_popularity": 3.480769230769231,
+      "less_popular_artist": "David Guetta",
+      "solo_popularity": 24.0,
+      "popularity_boost": -20.51923076923077
+    }
+  ],
+  "average_popularity_boost": -6.318337679827462,
+  "conclusion": "Kolaboracije u prosjeku smanjuju popularnost"
+}

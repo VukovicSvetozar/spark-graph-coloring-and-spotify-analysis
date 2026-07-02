@@ -1,0 +1,14 @@
+1. Pokretanje putem konfiguracije
+
+    Main class:
+        SpotifyAnalysisApp
+
+    Program arguments:
+        data/dataset.csv
+
+    VM options:
+        --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED -Dlog4j2.configurationFile=file:src/main/resources/log4j2.xml
+
+2. Pokretanje putem Terminala
+
+    java --add-opens java.base/java.nio=ALL-UNNAMED   --add-opens java.base/java.lang=ALL-UNNAMED   --add-opens java.base/java.lang.invoke=ALL-UNNAMED   --add-opens java.base/java.util=ALL-UNNAMED   --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED   --add-opens java.base/sun.nio.ch=ALL-UNNAMED   -jar target/spotify-data-analysis-1.0-SNAPSHOT.jar data/dataset.csv

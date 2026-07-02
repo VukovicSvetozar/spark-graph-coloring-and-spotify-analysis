@@ -1,0 +1,103 @@
+{
+  "analysis_name": "Eksplicitnost vs Valencija Analiza",
+  "description": "Odnos između eksplicitnog sadržaja i muzičke pozitivnosti kroz nivoe popularnosti",
+  "timestamp": "Sat Dec 20 19:46:19 CET 2025",
+  "popularity_ranges_analysis": [
+    {
+      "popularity_range": "0.0-0.1",
+      "explicit_valence": 0.510694900220356,
+      "non_explicit_valence": 0.5062480795066416,
+      "valence_difference": 0.004446820713714383,
+      "pattern": "Explicit_More_Positive",
+      "explicit_count": 1843,
+      "non_explicit_count": 20838
+    },
+    {
+      "popularity_range": "0.1-0.2",
+      "explicit_valence": 0.336543712928564,
+      "non_explicit_valence": 0.4443955462816883,
+      "valence_difference": -0.10785183335312432,
+      "pattern": "NonExplicit_More_Positive",
+      "explicit_count": 501,
+      "non_explicit_count": 8824
+    },
+    {
+      "popularity_range": "0.2-0.3",
+      "explicit_valence": 0.44598182807689396,
+      "non_explicit_valence": 0.4702187881410468,
+      "valence_difference": -0.024236960064152824,
+      "pattern": "NonExplicit_More_Positive",
+      "explicit_count": 1805,
+      "non_explicit_count": 16553
+    },
+    {
+      "popularity_range": "0.3-0.4",
+      "explicit_valence": 0.4945071208418731,
+      "non_explicit_valence": 0.5102961423121923,
+      "valence_difference": -0.015789021470319242,
+      "pattern": "NonExplicit_More_Positive",
+      "explicit_count": 997,
+      "non_explicit_count": 13928
+    },
+    {
+      "popularity_range": "0.4-0.5",
+      "explicit_valence": 0.48520854039418493,
+      "non_explicit_valence": 0.46350077758849423,
+      "valence_difference": 0.0217077628056907,
+      "pattern": "Explicit_More_Positive",
+      "explicit_count": 1288,
+      "non_explicit_count": 17926
+    },
+    {
+      "popularity_range": "0.5-0.6",
+      "explicit_valence": 0.4464134570496502,
+      "non_explicit_valence": 0.4203065043530094,
+      "valence_difference": 0.02610695269664076,
+      "pattern": "Explicit_More_Positive",
+      "explicit_count": 1397,
+      "non_explicit_count": 13145
+    },
+    {
+      "popularity_range": "0.6-0.7",
+      "explicit_valence": 0.47152313688861897,
+      "non_explicit_valence": 0.4692290608643652,
+      "valence_difference": 0.002294076024253744,
+      "pattern": "Explicit_More_Positive",
+      "explicit_count": 1033,
+      "non_explicit_count": 8315
+    },
+    {
+      "popularity_range": "0.7-0.8",
+      "explicit_valence": 0.5177853291706633,
+      "non_explicit_valence": 0.49930481477805616,
+      "valence_difference": 0.018480514392607172,
+      "pattern": "Explicit_More_Positive",
+      "explicit_count": 593,
+      "non_explicit_count": 3678
+    },
+    {
+      "popularity_range": "0.8-0.9",
+      "explicit_valence": 0.4979038905598774,
+      "non_explicit_valence": 0.5274767138231238,
+      "valence_difference": -0.029572823263246395,
+      "pattern": "NonExplicit_More_Positive",
+      "explicit_count": 257,
+      "non_explicit_count": 846
+    },
+    {
+      "popularity_range": "0.9-1.0",
+      "explicit_valence": 0.4328787877704158,
+      "non_explicit_valence": 0.43972153594860663,
+      "valence_difference": -0.0068427481781908606,
+      "pattern": "NonExplicit_More_Positive",
+      "explicit_count": 33,
+      "non_explicit_count": 65
+    }
+  ],
+  "pattern_consistency": {
+    "appears_in_ranges": 5,
+    "dominant_pattern": "NonExplicit_More_Positive",
+    "is_consistent": false
+  },
+  "conclusion": "Obrazac NIJE dosledan, varira kroz nivoe popularnosti"
+}

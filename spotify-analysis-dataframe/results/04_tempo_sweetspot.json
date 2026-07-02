@@ -1,0 +1,174 @@
+{
+  "analysis_name": "Sweet Spot Tempo Analiza (2 boda)",
+  "description": "Optimalni rasponi tempa za 5 najpopularnijih žanrova",
+  "timestamp": "Sat Dec 20 19:46:15 CET 2025",
+  "top_5_genres_tempo_analysis": [
+    {
+      "genre": "pop-film",
+      "avg_genre_popularity": 59.287575150300604,
+      "sweet_spot_tempo_range": "Medium (100-120 BPM)",
+      "sweet_spot_popularity": 59.86363636363637,
+      "tempo_ranges_analysis": [
+        {
+          "tempo_range": "Medium (100-120 BPM)",
+          "avg_popularity": 59.86363636363637,
+          "avg_tempo": 110.23018576882102,
+          "track_count": 242
+        },
+        {
+          "tempo_range": "Fast (121-140 BPM)",
+          "avg_popularity": 59.64018691588785,
+          "avg_tempo": 128.9338315803314,
+          "track_count": 214
+        },
+        {
+          "tempo_range": "Very Fast (\u003e140 BPM)",
+          "avg_popularity": 59.4,
+          "avg_tempo": 160.16682855515253,
+          "track_count": 210
+        },
+        {
+          "tempo_range": "Slow (\u003c100 BPM)",
+          "avg_popularity": 58.56927710843374,
+          "avg_tempo": 87.7563734169466,
+          "track_count": 332
+        }
+      ],
+      "sweet_spot_advantage": 1.2943592552026288
+    },
+    {
+      "genre": "k-pop",
+      "avg_genre_popularity": 56.952952952952955,
+      "sweet_spot_tempo_range": "Fast (121-140 BPM)",
+      "sweet_spot_popularity": 59.93939393939394,
+      "tempo_ranges_analysis": [
+        {
+          "tempo_range": "Fast (121-140 BPM)",
+          "avg_popularity": 59.93939393939394,
+          "avg_tempo": 129.0521734328497,
+          "track_count": 231
+        },
+        {
+          "tempo_range": "Very Fast (\u003e140 BPM)",
+          "avg_popularity": 58.0,
+          "avg_tempo": 158.84568172218525,
+          "track_count": 226
+        },
+        {
+          "tempo_range": "Slow (\u003c100 BPM)",
+          "avg_popularity": 55.255319148936174,
+          "avg_tempo": 88.4108086173416,
+          "track_count": 282
+        },
+        {
+          "tempo_range": "Medium (100-120 BPM)",
+          "avg_popularity": 55.23076923076923,
+          "avg_tempo": 109.4752078129695,
+          "track_count": 260
+        }
+      ],
+      "sweet_spot_advantage": 4.708624708624704
+    },
+    {
+      "genre": "chill",
+      "avg_genre_popularity": 53.651,
+      "sweet_spot_tempo_range": "Fast (121-140 BPM)",
+      "sweet_spot_popularity": 54.61244019138756,
+      "tempo_ranges_analysis": [
+        {
+          "tempo_range": "Fast (121-140 BPM)",
+          "avg_popularity": 54.61244019138756,
+          "avg_tempo": 129.83675128991524,
+          "track_count": 209
+        },
+        {
+          "tempo_range": "Medium (100-120 BPM)",
+          "avg_popularity": 53.8109243697479,
+          "avg_tempo": 111.12130695631524,
+          "track_count": 238
+        },
+        {
+          "tempo_range": "Very Fast (\u003e140 BPM)",
+          "avg_popularity": 53.44761904761905,
+          "avg_tempo": 157.00826648530506,
+          "track_count": 210
+        },
+        {
+          "tempo_range": "Slow (\u003c100 BPM)",
+          "avg_popularity": 53.07871720116618,
+          "avg_tempo": 84.32911936812776,
+          "track_count": 343
+        }
+      ],
+      "sweet_spot_advantage": 1.533722990221385
+    },
+    {
+      "genre": "sad",
+      "avg_genre_popularity": 52.379,
+      "sweet_spot_tempo_range": "Medium (100-120 BPM)",
+      "sweet_spot_popularity": 55.81818181818182,
+      "tempo_ranges_analysis": [
+        {
+          "tempo_range": "Medium (100-120 BPM)",
+          "avg_popularity": 55.81818181818182,
+          "avg_tempo": 110.8053866299716,
+          "track_count": 220
+        },
+        {
+          "tempo_range": "Very Fast (\u003e140 BPM)",
+          "avg_popularity": 52.42965779467681,
+          "avg_tempo": 159.39462744419112,
+          "track_count": 263
+        },
+        {
+          "tempo_range": "Fast (121-140 BPM)",
+          "avg_popularity": 51.14572864321608,
+          "avg_tempo": 129.39686933354517,
+          "track_count": 199
+        },
+        {
+          "tempo_range": "Slow (\u003c100 BPM)",
+          "avg_popularity": 50.729559748427675,
+          "avg_tempo": 84.9591225438148,
+          "track_count": 318
+        }
+      ],
+      "sweet_spot_advantage": 5.088622069754145
+    },
+    {
+      "genre": "grunge",
+      "avg_genre_popularity": 49.594,
+      "sweet_spot_tempo_range": "Medium (100-120 BPM)",
+      "sweet_spot_popularity": 52.86206896551724,
+      "tempo_ranges_analysis": [
+        {
+          "tempo_range": "Medium (100-120 BPM)",
+          "avg_popularity": 52.86206896551724,
+          "avg_tempo": 110.24176318539774,
+          "track_count": 203
+        },
+        {
+          "tempo_range": "Fast (121-140 BPM)",
+          "avg_popularity": 50.12558139534884,
+          "avg_tempo": 130.16757681203444,
+          "track_count": 215
+        },
+        {
+          "tempo_range": "Very Fast (\u003e140 BPM)",
+          "avg_popularity": 49.306666666666665,
+          "avg_tempo": 161.78961059570312,
+          "track_count": 375
+        },
+        {
+          "tempo_range": "Slow (\u003c100 BPM)",
+          "avg_popularity": 46.35748792270532,
+          "avg_tempo": 88.46858489916521,
+          "track_count": 207
+        }
+      ],
+      "sweet_spot_advantage": 6.504581042811921
+    }
+  ],
+  "average_sweet_spot_advantage": 3.8259820133229567,
+  "conclusion": "Sweet spot tempo ima MINIMALAN uticaj na popularnost"
+}

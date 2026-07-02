@@ -1,0 +1,158 @@
+{
+  "analysis_name": "Breakthrough Pjesme Analiza",
+  "description": "Pjesme sa popularnošću \u003e80 u albumima sa prosekom \u003c50, upoređene sa ostalim pesmama unutar istog albuma",
+  "timestamp": "Sat Dec 20 19:46:14 CET 2025",
+  "criteria": {
+    "album_avg_threshold": 50,
+    "song_popularity_threshold": 80
+  },
+  "breakthrough_songs_count": 13,
+  "top_20_breakthrough_songs": [
+    {
+      "track_name": "Hold On",
+      "artists": "Chord Overstreet",
+      "album_name": "Hold On",
+      "popularity": 82,
+      "album_avg_popularity": 39.0,
+      "energy": 0.443,
+      "danceability": 0.618,
+      "valence": 0.167
+    },
+    {
+      "track_name": "Miss You",
+      "artists": "Oliver Tree;Robin Schulz",
+      "album_name": "Miss You",
+      "popularity": 87,
+      "album_avg_popularity": 39.833333333333336,
+      "energy": 0.742,
+      "danceability": 0.587,
+      "valence": 0.199
+    },
+    {
+      "track_name": "Lost in the Fire (feat. The Weeknd)",
+      "artists": "Gesaffelstein;The Weeknd",
+      "album_name": "Hyperion",
+      "popularity": 85,
+      "album_avg_popularity": 45.916666666666664,
+      "energy": 0.671,
+      "danceability": 0.658,
+      "valence": 0.166
+    },
+    {
+      "track_name": "Silence",
+      "artists": "Marshmello;Khalid",
+      "album_name": "Silence",
+      "popularity": 81,
+      "album_avg_popularity": 48.916666666666664,
+      "energy": 0.761,
+      "danceability": 0.52,
+      "valence": 0.286
+    },
+    {
+      "track_name": "Silence",
+      "artists": "Marshmello;Khalid",
+      "album_name": "Silence",
+      "popularity": 81,
+      "album_avg_popularity": 48.916666666666664,
+      "energy": 0.761,
+      "danceability": 0.52,
+      "valence": 0.286
+    },
+    {
+      "track_name": "My Kind of Woman",
+      "artists": "Mac DeMarco",
+      "album_name": "2",
+      "popularity": 81,
+      "album_avg_popularity": 35.09090909090909,
+      "energy": 0.765,
+      "danceability": 0.501,
+      "valence": 0.46
+    },
+    {
+      "track_name": "Silence",
+      "artists": "Marshmello;Khalid",
+      "album_name": "Silence",
+      "popularity": 81,
+      "album_avg_popularity": 48.916666666666664,
+      "energy": 0.761,
+      "danceability": 0.52,
+      "valence": 0.286
+    },
+    {
+      "track_name": "Hit \u0027Em Up - Single Version",
+      "artists": "2Pac;Outlawz",
+      "album_name": "Greatest Hits",
+      "popularity": 81,
+      "album_avg_popularity": 36.83870967741935,
+      "energy": 0.844,
+      "danceability": 0.916,
+      "valence": 0.586
+    },
+    {
+      "track_name": "Silence",
+      "artists": "Marshmello;Khalid",
+      "album_name": "Silence",
+      "popularity": 81,
+      "album_avg_popularity": 48.916666666666664,
+      "energy": 0.761,
+      "danceability": 0.52,
+      "valence": 0.286
+    },
+    {
+      "track_name": "Young",
+      "artists": "Vacations",
+      "album_name": "Vibes",
+      "popularity": 83,
+      "album_avg_popularity": 36.166666666666664,
+      "energy": 0.81,
+      "danceability": 0.498,
+      "valence": 0.594
+    },
+    {
+      "track_name": "My Kind of Woman",
+      "artists": "Mac DeMarco",
+      "album_name": "2",
+      "popularity": 81,
+      "album_avg_popularity": 35.09090909090909,
+      "energy": 0.765,
+      "danceability": 0.501,
+      "valence": 0.46
+    },
+    {
+      "track_name": "Silence",
+      "artists": "Marshmello;Khalid",
+      "album_name": "Silence",
+      "popularity": 81,
+      "album_avg_popularity": 48.916666666666664,
+      "energy": 0.761,
+      "danceability": 0.52,
+      "valence": 0.286
+    },
+    {
+      "track_name": "Lost in the Fire (feat. The Weeknd)",
+      "artists": "Gesaffelstein;The Weeknd",
+      "album_name": "Hyperion",
+      "popularity": 85,
+      "album_avg_popularity": 45.916666666666664,
+      "energy": 0.671,
+      "danceability": 0.658,
+      "valence": 0.166
+    }
+  ],
+  "breakthrough_audio_characteristics": {
+    "energy": 0.7194285605634961,
+    "danceability": 0.613999992609024,
+    "valence": 0.3511428598846708
+  },
+  "other_songs_audio_characteristics": {
+    "energy": 0.655605294955023,
+    "danceability": 0.5862126888105129,
+    "valence": 0.40240538596440695
+  },
+  "audio_differences": {
+    "energy_diff": 0.0638232656084732,
+    "danceability_diff": 0.027787303798511107,
+    "valence_diff": -0.05126252607973612
+  },
+  "analysis_method": "Poređenje Breakthrough pjesme sa ostalim pjesmama u okviru istog albuma.“"
+}

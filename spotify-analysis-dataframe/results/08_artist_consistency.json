@@ -1,0 +1,214 @@
+{
+  "analysis_name": "Dosljednost Umjetnika Analiza",
+  "description": "Umjetnici sa najnižom standardnom devijacijom popularnosti i njihova žanrovska raznolikost",
+  "timestamp": "Sat Dec 20 19:46:20 CET 2025",
+  "top_20_most_consistent_artists": [
+    {
+      "artist": "\"Joey \"\"CoCo\"\" Diaz\"",
+      "popularity_stddev": 0.5163977794943223,
+      "avg_popularity": 21.333333333333332,
+      "track_count": 6,
+      "genre_count": 1,
+      "primary_genre": "comedy",
+      "primary_genre_percentage": 100.0,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "Banda Som e Louvor",
+      "popularity_stddev": 0.5163977794943216,
+      "avg_popularity": 38.333333333333336,
+      "track_count": 6,
+      "genre_count": 2,
+      "primary_genre": "gospel",
+      "primary_genre_percentage": 50.0,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "Carpathian Forest",
+      "popularity_stddev": 0.4472135954999579,
+      "avg_popularity": 15.8,
+      "track_count": 5,
+      "genre_count": 1,
+      "primary_genre": "black-metal",
+      "primary_genre_percentage": 100.0,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "Cemiyette Pişiyorum",
+      "popularity_stddev": 0.5477225575051656,
+      "avg_popularity": 36.6,
+      "track_count": 5,
+      "genre_count": 3,
+      "primary_genre": "punk-rock",
+      "primary_genre_percentage": 60.0,
+      "diversity_category": "Moderately_Diverse"
+    },
+    {
+      "artist": "Disgorge",
+      "popularity_stddev": 0.547722557505166,
+      "avg_popularity": 12.6,
+      "track_count": 5,
+      "genre_count": 1,
+      "primary_genre": "grindcore",
+      "primary_genre_percentage": 100.0,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "Gündoğarken",
+      "popularity_stddev": 0.5477225575051656,
+      "avg_popularity": 37.6,
+      "track_count": 5,
+      "genre_count": 3,
+      "primary_genre": "j-pop",
+      "primary_genre_percentage": 60.0,
+      "diversity_category": "Moderately_Diverse"
+    },
+    {
+      "artist": "Imperialist",
+      "popularity_stddev": 0.534522483824849,
+      "avg_popularity": 20.5,
+      "track_count": 8,
+      "genre_count": 1,
+      "primary_genre": "black-metal",
+      "primary_genre_percentage": 100.0,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "Incantation",
+      "popularity_stddev": 0.547722557505166,
+      "avg_popularity": 17.6,
+      "track_count": 5,
+      "genre_count": 1,
+      "primary_genre": "black-metal",
+      "primary_genre_percentage": 100.0,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "Lucas Lucco",
+      "popularity_stddev": 0.5163977794943223,
+      "avg_popularity": 45.333333333333336,
+      "track_count": 6,
+      "genre_count": 2,
+      "primary_genre": "funk",
+      "primary_genre_percentage": 50.0,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "Masaki Suda",
+      "popularity_stddev": 0.4472135954999583,
+      "avg_popularity": 62.2,
+      "track_count": 5,
+      "genre_count": 4,
+      "primary_genre": "j-rock",
+      "primary_genre_percentage": 40.0,
+      "diversity_category": "Moderately_Diverse"
+    },
+    {
+      "artist": "Moğollar",
+      "popularity_stddev": 0.408248290463863,
+      "avg_popularity": 38.833333333333336,
+      "track_count": 6,
+      "genre_count": 3,
+      "primary_genre": "j-rock",
+      "primary_genre_percentage": 33.333333333333336,
+      "diversity_category": "Moderately_Diverse"
+    },
+    {
+      "artist": "Méav",
+      "popularity_stddev": 0.5163977794943223,
+      "avg_popularity": 20.333333333333332,
+      "track_count": 6,
+      "genre_count": 2,
+      "primary_genre": "opera",
+      "primary_genre_percentage": 66.66666666666667,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "NG Rezonance",
+      "popularity_stddev": 0.5016103101270997,
+      "avg_popularity": 28.580645161290324,
+      "track_count": 31,
+      "genre_count": 1,
+      "primary_genre": "trance",
+      "primary_genre_percentage": 100.0,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "Natiruts",
+      "popularity_stddev": 0.5270462766947299,
+      "avg_popularity": 43.5,
+      "track_count": 10,
+      "genre_count": 2,
+      "primary_genre": "brazil",
+      "primary_genre_percentage": 50.0,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "Organ Tapes",
+      "popularity_stddev": 0.547722557505166,
+      "avg_popularity": 15.6,
+      "track_count": 5,
+      "genre_count": 1,
+      "primary_genre": "club",
+      "primary_genre_percentage": 100.0,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "Rob Cantor",
+      "popularity_stddev": 0.37796447300922725,
+      "avg_popularity": 31.857142857142858,
+      "track_count": 7,
+      "genre_count": 1,
+      "primary_genre": "disney",
+      "primary_genre_percentage": 100.0,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "SILENT SIREN",
+      "popularity_stddev": 0.5149286505444362,
+      "avg_popularity": 19.416666666666668,
+      "track_count": 12,
+      "genre_count": 1,
+      "primary_genre": "j-idol",
+      "primary_genre_percentage": 100.0,
+      "diversity_category": "Highly_Specialized"
+    },
+    {
+      "artist": "The Flatliners",
+      "popularity_stddev": 0.5477225575051661,
+      "avg_popularity": 35.5,
+      "track_count": 6,
+      "genre_count": 3,
+      "primary_genre": "hardcore",
+      "primary_genre_percentage": 33.333333333333336,
+      "diversity_category": "Moderately_Diverse"
+    },
+    {
+      "artist": "Todos Tus Muertos",
+      "popularity_stddev": 0.5345224838248485,
+      "avg_popularity": 36.57142857142857,
+      "track_count": 7,
+      "genre_count": 4,
+      "primary_genre": "hard-rock",
+      "primary_genre_percentage": 28.571428571428573,
+      "diversity_category": "Moderately_Diverse"
+    },
+    {
+      "artist": "Twinkle Twinkle Little Rock Star",
+      "popularity_stddev": 0.5188745216627708,
+      "avg_popularity": 28.53846153846154,
+      "track_count": 13,
+      "genre_count": 1,
+      "primary_genre": "children",
+      "primary_genre_percentage": 100.0,
+      "diversity_category": "Highly_Specialized"
+    }
+  ],
+  "diversity_statistics": {
+    "highly_diverse_6plus_genres": 0,
+    "moderately_diverse_3_5_genres": 6,
+    "highly_specialized_1_2_genres": 14,
+    "highly_specialized_percentage": 70.0
+  },
+  "conclusion": "Dosljednost JE povezana sa žanrovskom specijalizacijom"
+}
