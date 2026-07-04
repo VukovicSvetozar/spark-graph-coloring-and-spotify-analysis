@@ -7,7 +7,7 @@
 
 <div style="page-break-before: always;"></div>
 
-Dva nezavisna Java/Spark projekta izrađena u okviru predmeta *Odabrana poglavlja iz operativnih sistema*: distribuirani algoritam za bojenje grafa zasnovan na **Spark RDD API-ju** (sa optimizovanom i baseline verzijom, te inkrementalnim bojenjem) i analiza Spotify skupa podataka zasnovana na **Spark DataFrame API-ju** (devet nezavisnih analiza nad ~114.000 pjesama).
+Dva nezavisna Java/Spark projekta izrađena u okviru predmeta *Odabrana poglavlja iz operativnih sistema*: distribuirani algoritam za bojenje grafa zasnovan na **Spark RDD API-ju** (sa optimizovanom i baseline verzijom, te inkrementalnim bojenjem) i analiza Spotify skupa podataka zasnovana na **Spark DataFrame API-ju** (devet nezavisnih analiza nad ~114.000 pjesama). Oba projekta se pokreću lokalno (`local[*]`), bez potrebe za pravim Spark klasterom.
 
 ## Sadržaj
 
@@ -28,7 +28,12 @@ Dva nezavisna Java/Spark projekta izrađena u okviru predmeta *Odabrana poglavlj
 ## Struktura repozitorijuma
 
 ```
-├── docs/                                  # Specifikacija zadatka i uputstva za pokretanje
+├── docs/
+│   ├── Projektni_zadatak.pdf               # Specifikacija zadatka
+│   ├── graph-coloring-optimization.pdf     # Opis optimizacija i rezultati mjerenja
+│   ├── graph-coloring-cli.odt              # Detaljno uputstvo za CLI opcije
+│   ├── graph-coloring-instructions.txt     # Kratko uputstvo za pokretanje Modula 1
+│   └── spotify-analysis-instructions.txt   # Kratko uputstvo za pokretanje Modula 2
 ├── graph-coloring-rdd/                    # Modul 1 — Spark RDD API
 │   ├── src/main/java/org/etf/graph/
 │   │   ├── cli/                           # Parsiranje i validacija CLI argumenata
@@ -139,7 +144,7 @@ Na ovim veličinama grafa prosječno poboljšanje je skromno (~3,8 %), a u jedno
 
 ### Šema podataka i čišćenje
 
-`DataLoader` definiše eksplicitnu šemu (umjesto oslanjanja na automatsku inferenciju tipova) i validira dataset prilikom učitavanja:
+Šema (nazivi kolona, tipovi, broj redova) odgovara javno dostupnom **Spotify Tracks Dataset**-u sa Kaggle-a. `DataLoader` definiše eksplicitnu šemu (umjesto oslanjanja na automatsku inferenciju tipova) i validira dataset prilikom učitavanja:
 
 | Kolona | Tip | Opis |
 |---|---|---|
@@ -191,6 +196,7 @@ Aplikacija generiše 9 pojedinačnih JSON fajlova (`results/01_*.json` – `resu
 | Serijalizacija | Jackson, Gson | Gson |
 | CLI | `commons-cli` | — (jedini argument je putanja do CSV-a) |
 | Logovanje | Log4j2 (preko SLF4J) | Log4j2 (preko SLF4J) |
+| Podaci | — | Spotify Tracks Dataset (Kaggle), CSV, 114.000 pjesama, 20 kolona |
 
 ## Kako pokrenuti projekat lokalno
 
