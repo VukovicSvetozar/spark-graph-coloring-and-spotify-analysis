@@ -7,58 +7,21 @@
 
 <div style="page-break-before: always;"></div>
 
-Dva nezavisna Java/Spark projekta izrađena u okviru predmeta *Odabrana poglavlja iz operativnih sistema*: distribuirani algoritam za bojenje grafa zasnovan na **Spark RDD API-ju** (sa optimizovanom i baseline verzijom, te inkrementalnim bojenjem) i analiza Spotify skupa podataka zasnovana na **Spark DataFrame API-ju** (devet nezavisnih analiza nad ~114.000 pjesama). Oba projekta se pokreću lokalno (`local[*]`), bez potrebe za pravim Spark klasterom.
+Dva nezavisna Java/Spark projekta: distribuirani algoritam za bojenje grafa zasnovan na **Spark RDD API-ju** (sa optimizovanom i baseline verzijom, te inkrementalnim bojenjem) i analiza Spotify skupa podataka zasnovana na **Spark DataFrame API-ju** (devet nezavisnih analiza nad ~114.000 pjesama). Oba projekta se pokreću lokalno (`local[*]`), bez potrebe za pravim Spark klasterom.
 
 ## Sadržaj
 
-- [Struktura repozitorijuma](#struktura-repozitorijuma)
 - [Modul 1: Distribuirano bojenje grafa](#modul-1-distribuirano-bojenje-grafa)
   - [Algoritam](#algoritam)
   - [CLI opcije](#cli-opcije)
   - [Optimizacije](#optimizacije)
   - [Inkrementalno bojenje](#inkrementalno-bojenje)
-  - [Rezultati benchmark testiranja](#rezultati-benchmark-testiranja)
 - [Modul 2: Analiza Spotify skupa podataka](#modul-2-analiza-spotify-skupa-podataka)
   - [Šema podataka i čišćenje](#šema-podataka-i-čišćenje)
   - [Analize](#analize)
   - [Rezime izvršavanja](#rezime-izvršavanja)
 - [Tehnologije i alati](#tehnologije-i-alati)
 - [Kako pokrenuti projekat lokalno](#kako-pokrenuti-projekat-lokalno)
-
-## Struktura repozitorijuma
-
-```
-├── docs/
-│   ├── Projektni_zadatak.pdf               # Specifikacija zadatka
-│   ├── graph-coloring-optimization.pdf     # Opis optimizacija i rezultati mjerenja
-│   ├── graph-coloring-cli.odt              # Detaljno uputstvo za CLI opcije
-│   ├── graph-coloring-instructions.txt     # Kratko uputstvo za pokretanje Modula 1
-│   └── spotify-analysis-instructions.txt   # Kratko uputstvo za pokretanje Modula 2
-├── graph-coloring-rdd/                    # Modul 1 — Spark RDD API
-│   ├── src/main/java/org/etf/graph/
-│   │   ├── cli/                           # Parsiranje i validacija CLI argumenata
-│   │   ├── config/                        # Konfiguracioni objekat izveden iz CLI opcija
-│   │   ├── core/                          # Node (record), generisanje i validacija grafa, tajmer
-│   │   ├── data/                          # (De)serijalizacija grafa/rezultata u JSON, izvoz metrika
-│   │   ├── incremental/                   # Model promjena i inkrementalno bojenje (Zadatak 6)
-│   │   ├── jobs/                          # Spark job-ovi: prosječan stepen, bojenje, validacija
-│   │   └── metrics/                       # Strukture rezultata (records)
-│   ├── run.sh                             # Skripta za pokretanje iz terminala
-│   ├── cp.txt                             # Classpath zavisnosti (potrebno regenerisati lokalno)
-│   └── pom.xml
-├── spotify-analysis-dataframe/            # Modul 2 — Spark DataFrame API
-│   ├── src/main/java/org/etf/spotify/analysis/
-│   │   ├── analyzer/                      # 9 nezavisnih analiza (jedna klasa po analizi)
-│   │   ├── config/                        # Konfiguracija Spark sesije
-│   │   ├── exporter/                      # Izvoz rezultata u JSON + generisanje SUMMARY_REPORT.md
-│   │   └── loader/                        # Eksplicitna šema, učitavanje i čišćenje CSV podataka
-│   ├── data/dataset.csv                   # Spotify skup podataka
-│   ├── results/                           # Generisani JSON rezultati + finalni izvještaj
-│   └── pom.xml
-└── .gitignore
-```
-
-Napomena: ovo su dva **nezavisna** Maven projekta (svaki sa svojim `pom.xml`-om), a ne moduli jednog agregatnog roditeljskog projekta — build i pokretanje se rade odvojeno za svaki od njih.
 
 ## Modul 1: Distribuirano bojenje grafa
 
@@ -120,25 +83,6 @@ Optimizovana verzija (`GraphColoringJob`) koristi iste korake algoritma kao base
 3. Poništava boju samo pogođenim čvorovima i ponovo boji isključivo tu (redukovanu) listu, koristeći fiksni K dobijen iz inicijalnog bojenja, umjesto da cijeli graf boji ispočetka.
 
 Ako se ne navede `--changes-file`, `MainApp` generiše skup demonstracionih promjena (provjerava da li dodavanje/brisanje čvora ili ivice ima smisla u datom grafu prije nego što je doda u listu promjena).
-
-### Rezultati benchmark testiranja
-
-Prosječna vremena izvršavanja kroz 10 pokretanja, sa identičnim brojem čvorova, maksimalnim stepenom i seed-om za oba scenarija:
-
-| Test | Čvorova | Max. stepen | Baseline (ms) | Optimizovano (ms) | Poboljšanje | Broj poruka |
-|---:|---:|---:|---:|---:|---:|---:|
-| 1 | 500 | 3 | 4.512 | 4.467 | 1,0 % | 4.389 |
-| 2 | 1.000 | 5 | 17.347 | 16.316 | 5,9 % | 20.567 |
-| 3 | 1.500 | 8 | 71.999 | 62.097 | 13,8 % | 230.085 |
-| 4 | 2.000 | 10 | 347.865 | 360.605 | −3,7 % | 128.609 |
-| 5 | 2.500 | 12 | 557.554 | 538.009 | 3,5 % | 3.429.395 |
-| 6 | 3.000 | 15 | 840.866 | 813.972 | 3,2 % | 1.766.176 |
-| 7 | 3.500 | 18 | 1.234.935 | 1.167.944 | 5,4 % | 1.167.944 |
-| 8 | 4.000 | 20 | 1.830.781 | 1.791.153 | 2,2 % | 832.014 |
-| 9 | 4.500 | 22 | 2.303.447 | 2.275.801 | 1,2 % | 1.526.441 |
-| 10 | 5.000 | 50 | 2.869.628 | 2.704.746 | 5,7 % | 6.521.798 |
-
-Na ovim veličinama grafa prosječno poboljšanje je skromno (~3,8 %), a u jednom slučaju (Test 4) baseline je čak bio nešto brži — što je i očekivano, jer na manjim skupovima podataka režijski trošak Spark okvira (task scheduling, serijalizacija, koordinacija particija) nadmašuje uštedu u samom procesiranju. Optimizacije (manje shuffle-a, jeftinije keširanje) daju veći efekat kada graf ima više čvorova, veći prosječan stepen i kada se izvršava na pravom klasteru sa više worker-a — uslovi koji nisu u potpunosti zastupljeni u ovim lokalnim testovima.
 
 ## Modul 2: Analiza Spotify skupa podataka
 
